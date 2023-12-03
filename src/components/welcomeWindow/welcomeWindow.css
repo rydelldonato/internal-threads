@@ -52,4 +52,9 @@
     z-index: 0;
   }
   .welcome{
+    font-family: 'Bukhari Script', cursive;
+    color: #E09FAF;
+    font-size: 27px;
+    font-weight: bold; /* Add this line for bold text */
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5); /* Adjust the x and y offset values here */
   }
