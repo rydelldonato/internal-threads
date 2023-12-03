@@ -1,7 +1,14 @@
 .App {
   text-align: center;
-}
+  font-family: 'bukScript';
 
+}
+@font-face{
+  font-family: 'bukScript';
+  src: url('/public/fonts/bukScript.ttf') format('ttf'),
+  url('/public/fonts/bukScript.ttf') format('ttf');
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

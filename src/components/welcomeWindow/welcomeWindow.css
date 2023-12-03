@@ -51,4 +51,5 @@
     animation: floatAnimation 2s infinite alternate; /* Adjust the animation duration as needed */
     z-index: 0;
   }
-  
+  .welcome{
+  }
