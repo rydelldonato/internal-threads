@@ -24,6 +24,9 @@
     height: 20%;
   }
   
+  img.welcomeWindowImg{
+    width: 100%;
+  }
   .top {
     display: flex;
     flex-direction: row;
@@ -47,7 +50,7 @@
     width: 81%;
     position: absolute;
     right: 10%;
-    bottom: 85%;
+    bottom: 52%;
     animation: floatAnimation 2s infinite alternate; /* Adjust the animation duration as needed */
     z-index: 0;
   }
@@ -55,6 +58,12 @@
     font-family: 'Bukhari Script', cursive;
     color: #E09FAF;
     font-size: 27px;
-    font-weight: bold; /* Add this line for bold text */
-    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5); /* Adjust the x and y offset values here */
+    font-weight: 200;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .heartButton{
+    position: absolute;
+    left: 25%;
+    bottom: 34%;
   }

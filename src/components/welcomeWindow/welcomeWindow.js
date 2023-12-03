@@ -1,22 +1,19 @@
 import React from "react";
-import HeartButton from "../heartButton/heartButton";
+import HeartButton from "../heartButton/heartButtonAnimation";
 import "./welcomeWindow.css";
 
 export default function WelcomeWindow() {
   return (
     <>
-      <div className="allContent">
+         
         <div className="logoDiv">
           <img className="logo" alt="logo" src="./logo.png"/> 
         </div>
-        <div className="top">
-          <div className="welcome">welcome</div>
-          <div className="heartButton">
+        <div className="welcomeWindowImgDiv">
             <HeartButton />
-          </div>
+        <img className="welcomeWindowImg" alt="welcomeWindow" src="./welcome-window.png"/>
         </div>
-        <div className="mainWindow">login button</div>
-      </div>
+   
     </>
   );
 }
